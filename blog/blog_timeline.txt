@@ -1,0 +1,115 @@
+PROJECT SERVER: Rough Timeline for craypaul.com
+-Initial Creation:
+	#Arduino Server
+	#Adding SPIFFS to Arduino
+	#Creating HTML w/CSS pages
+	#Creating light page & utilizing ESP8266 pins
+	#Attempting to implement PHP into Arduino(failing)
+	#Trials and Tribulations of using PHP in files
+		#Implelementing MySQL from phpMyAdmin for login and register
+	#Creating XAMPP Apache server to hold login and register PHP
+	
+-Porting server to XAMPP:
+	#Dropped Arduino files along w lights
+	#Learning Apache to configure httpd.conf
+	#Creating virtualHost for server(craypaul.com)
+		#Also configuring Windows hosts file for DNS
+	#Learning about allowing external access to server
+		#Configuring Port Forwarding & 
+		#Decision to not register domain name
+	#Trials and Tribulations of correctly setting up Apache conf files
+	#Using htpasswd file to store passwords
+		#Reworking PHP register file to add hashing/storing to passwords
+	#Adding authentication to Apache httpd.conf files
+	#Trouble accessing phpMyAdmin, reinstall XAMPP
+	
+-Current Progress:
+	#Dropping HTTP form authentication & htpasswd
+		#Going back to MySQL for username password hashing/storing
+		#Replacing HTTP auth w/ PHP authentication
+	#Modifying login and register files(convert back to HTML)
+		#Adding login,register confirm PHP files for verification
+	#Learning more about hardening and securing Apache server
+	#Creating a list of ideas to implement into server
+	#Using RIPS to analyze PHP code to determine potential attacks on the serve
+	
+-Recently Added:
+	#Configured PHP authentication
+	#Configured authentication.php file for login/logout system
+	#Configured logout system
+	#Added .ico into address tab for all files
+	#Configured Access Control for phpMyAdmin
+	#Configured Access Control for login system
+	#Reconfigured filesystem to create subdirectories for different levels of permission
+	
+-Looking into the Future:
+	#Add HTTPS support
+		#Utilize SSL/TLS for HTTPS
+	#Integrate Filezilla(FTP) into server
+	#Secure httpd.conf/httpd-xampp.conf files
+	#Place more security on HTML/PHP pages
+		#Create more user validation on register page(ex: no HTML tags)
+		#Erradicating Javascript to redirect pages
+	#Making HTML pages more responses to other devices(aka mobile, tablet)
+	#Adding access control for laptop, other end devices
+	#Replacing for loop in register.php file
+		#Potentially replacing .htpasswd with MySQL database if I can use the integrated phpmyadmin MySQL
+	#Using XAMPP Security page to password protect XAMPP & phpMyAdmin root user
+	#Remove unused folders and entries in config files
+	#Remove default scripts from CGI-bin dir
+	#Create PMA password not covered by security
+	#Remove default user/passwords included with XAMPP for FTP server, WebDAV server, and web accessible folders
+	#Using wireshark to further look at HTTP headers and transfer of data
+	#Potential bot usage??
+	
+____________________________________________________________________________________________________________________
+
+
+-Potential Layout of Server:
+
+	#DirectoryRoot - craypaul_server
+		Index.html
+		Login.html
+		Login_success.html <- session start
+		Register.php
+		Register_success.html
+		Logout.html <- session end
+		Main(Directory)
+
+		#Dir - craypaul_server/main
+			Main.html
+			Calc.html
+			Lights.html(????)
+			Blog(Directory)
+
+			#Dir - craypaul_server/main/blog
+			- To Be Added Later -
+
+	#Applications (YES or NO):
+		Apache---------YES
+		MySQL----------YES
+		Filezilla------MAYBE
+		Mercury--------NO
+		Tomcat---------NO
+		
+		
+-Techniques Used to Secure/Harden Server:
+	#POST method instead of GET method to sumbit user data
+	#User Validation on Login and Register Page
+	#Password Hashing in SQL database(MariaDB)
+	#PHP configuration for protecting against attacks
+		#Sanitizing user input
+		#Preparing, Binding SQL statements
+	#PHP files for authentication
+		#Checking passwords
+		#Checking if user if logged in
+		#Session authentication
+	#HTTPS instead of HTTP
+	#Access Control for different level of permissions
+	
+
+-Potential Attacks to Consider:
+	#SQL Injections
+	#Cross-Site Scripting(XSS)
+	#File Inclusion
+	#Flow Control
