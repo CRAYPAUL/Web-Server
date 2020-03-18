@@ -9,6 +9,7 @@ I am currently still in the development phase of my project. Currently, my actua
 redirect issue, securing cookies, and running SSL not only over HTTPS, but also port 3306 (For mariaDB database). Wireshark captures revealed to me that I need to try harder.
 
 **NOTE: This project will be going through a relatively big overhaul once I get used to my new PI and using Debian. I will be porting from Windows over to Raspbian**
+
 **NOTE: For the time being as well, I have put this project on the back burners. I have decided to focus on more web application-related vulnerabilities and exploits instead of allocating lots of time to this project**
 
 # PROJECT SERVER: Rough Timeline for craypaul.com
