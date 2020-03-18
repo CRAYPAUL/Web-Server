@@ -6,10 +6,10 @@ This is my XAMPP server, currently running on 7.3.12, with the following applica
 4. FileZilla **--currently not utilized**
 
 I am currently still in the development phase of my project. Currently, my actual web pages works fine. The issues are stemming from a 
-redirect issue, securing cookies, and running SSL not only over HTTPS, but also port 3306. Wireshark captures revealed to me that my data 
-can is captured in plain text.
+redirect issue, securing cookies, and running SSL not only over HTTPS, but also port 3306 (For mariaDB database). Wireshark captures revealed to me that I need to try harder.
 
-**NOTE: This project will be going through a relatively big overhaul once I get used to my new PI and using Debian. I will be porting from Window to Linux (FINALLY!)**
+**NOTE: This project will be going through a relatively big overhaul once I get used to my new PI and using Debian. I will be porting from Windows over to Raspbian**
+**NOTE: For the time being as well, I have put this project on the back burners. I have decided to focus on more web application-related vulnerabilities and exploits instead of allocating lots of time to this project**
 
 # PROJECT SERVER: Rough Timeline for craypaul.com
 ## Initial Creation: 
