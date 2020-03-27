@@ -8,20 +8,22 @@ session_authentication();
 <title>Server Main Menu</title>
 <link rel="shortcut icon" type="image/x-icon" href="https://craypaul.com/myicon.ico"/>
 <style>
-    *{
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    html{
-        height: 100%;
-    }
-    body{
-        font-family: 'Segoe UI', sans-serif;;
-        font-size: 1rem;
-        line-height: 1.6;
-        height: 100%;
-    }
+	*{
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	html {
+		height: 100%;
+	}
+
+	body {
+		font-family: 'Segoe UI', sans-serif;;
+		font-size: 1rem;
+		line-height: 1.6;
+	}
+	
 	ul.topnav {
 		list-style-type: none;
 		margin: 0;
@@ -31,10 +33,12 @@ session_authentication();
 		top: 0;
 		width: 100%;
 	}
+	
 	li {
 		float: left;
 		width: auto;
 	}
+	
 	li a, .dropbutton {
 		display: block;
 		color: white;
@@ -42,19 +46,24 @@ session_authentication();
 		padding: 14px 16px;
 		text-decoration: none;
 	}
+	
 	li a:hover:not(.active) {
 		background-color: #111;
 	}
+	
 	.active:hover {
 		background: #69c8e7;
 	}
+	
 	.active {
 		background: #69d2e7;
 	}
+	
 	.dropdown {
 		float: right;
 		padding-right: 1px;
 	}
+	
 	.dropdown-content {
 		display: none;
 		position: absolute;
@@ -62,6 +71,7 @@ session_authentication();
 		min-width: 120px;
 		z-index: 1;
 	}
+	
 	.dropdown-content a {
 		color: white;
 		padding: 12px 16px;
@@ -69,63 +79,74 @@ session_authentication();
 		display: block;
 		text-align: right;
 	}
+	
 	.dropdown-content a:hover {
 		background-color: #f1f1f1;
 	}
+	
 	.dropdown:hover .dropdown-content {
 		display: block;
 	}
-    .wrap {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #4d4d4d;
-    }
-    .main-form{
-        width: 45%;
-        margin: 0 auto;
-        padding: 2rem;
-        background: #333;
+	
+	.wrap {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #4d4d4d;
+	}
+
+	.main-form {
+		width: 45%;
+		margin: 0 auto;
+		padding: 2rem;
+		background: #333;
 		color: white;
-    }
-    .form-button{
-        background: #69d2e7;
-        border: 1px solid #333;
+	}
+
+	.form-button {
+		background: #69d2e7;
+		border: 1px solid #333;
 		display: block;
-        color: #ffffff;
-        padding: 22px 10px;
-        width: 100%;
+		color: #ffffff;
+		padding: 22px 10px;
+		width: 100%;
 		font-size: 20px;
-        text-transform: uppercase;
+		text-transform: uppercase;
 		transition: background-color 0.5s, width 0.5s;
-    }
-    .form-button:hover{
-        background: #d57676;
-		width: 65%;
-    }
-    .form-header{
-        text-align: center;
-        margin-bottom : 0.5rem;
-    }
-    .form-footer{
-        text-align: center;
-    }
-    .back-button{
-        background: #d57676;
-        border: 1px solid #333;
-        color: #ffffff;
-        padding: 10px;
+	}
+	
+	.form-button:hover {
+		background: #d57676;
+			width: 65%;
+	}
+
+	.form-header {
+		text-align: center;
+		margin-bottom : 0.5rem;
+	}
+
+	.form-footer {
+		text-align: center;
+	}
+
+	.back-button {
+		background: #d57676;
+		border: 1px solid #333;
+		color: #ffffff;
+		padding: 10px;
 		margin-top: 0.5rem;
-        width: 30%;
+		width: 30%;
 		font-size: 15px;
-        text-transform: uppercase;
+		text-transform: uppercase;
 		transition: background-color 0.5s;
-    }
-    .back-button:hover{
-        background: #c33c3c;
-    }
+	}
+
+	.back-button:hover {
+		background: #c33c3c;
+	}
+	
 	@media screen and (max-width: 840px) {
 		.main-form {
 			width: 90%; 
@@ -168,9 +189,9 @@ session_authentication();
 		<p><?php echo "Hello, ". protect_data($_SESSION['username']) ."!" ?></p>
 		<p>Navigate To Applications:</p>
 	    </div>
-		<input type="button" class="form-button" value="Calculator" onclick="window.location.href='calc.php'">
-		<input type="button" class="form-button" value="BLOG" onclick="window.location.href='https://craypaul.com/blog/'">
-		<input type="button" class="form-button" value="SETTINGS" onclick="window.location.href=''">
+		<input type="button" class="form-button" value="Calculator" onclick="window.location.href='calc.php'"></input>
+		<input type="button" class="form-button" value="BLOG" onclick="window.location.href='https://craypaul.com/blog/'"></input>
+		<input type="button" class="form-button" value="SETTINGS" onclick="window.location.href=''"></input>
 	    <div class="form-footer">
 		Once you are done:<br>
 		<input type="button" class="back-button" value="LOGOUT" onclick="window.location.href='https://craypaul.com/logout.php'">
