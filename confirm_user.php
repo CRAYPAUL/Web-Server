@@ -412,7 +412,7 @@ session_start();
         	align-items: center;
 	}
 	
-	.login-form{
+	.login-form {
         	width: 350px;
         	margin: 0 auto;
         	border: 5px solid #333;
@@ -420,18 +420,18 @@ session_start();
         	background: #4d4d4d;
     	}
 	
-    	.form-input{
+    	.form-input {
         	background: #fafafa;
         	border: 1px solid #eeeeee;
         	padding: 12px;
         	width: 100%;
     	}
 	
-    	.form-group{
+    	.form-group {
         	margin-bottom: 1rem;
     	}
 	
-    	.form-button{
+    	.form-button {
         	background: #69d2e7;
         	border: 1px solid #4d4d4d;
         	color: #ffffff;
@@ -440,22 +440,22 @@ session_start();
         	text-transform: uppercase;
     	}
 	
-    	.form-button:hover{
+    	.form-button:hover {
         	background: #3ac3df;
     	}
 	
-    	.form-header{
+    	.form-header {
         	text-align: center;
         	margin-bottom: 2rem;
 		color: white;
 	}
 	
-    	.form-footer{
+    	.form-footer {
        		text-align: center;
 		color: white;
     	}
 	
-    	.button11{
+    	.button11 {
         	background: #d57676;
         	border: 1px solid #4d4d4d;
         	color: #ffffff;
@@ -463,18 +463,18 @@ session_start();
         	text-transform: uppercase;
     	}
 	
-    	.button11:hover{
+    	.button11:hover {
         	background: #cd5c5c;
     	}
 	
-    	.textInput{
+    	.textInput {
         	background: #fafafa;
         	border: 1px solid #eeeeee;
         	padding: 12px;
         	width: 100%;
     	}
 	
-    	.btn{
+    	.btn {
        		background: #d57676;
         	border: 1px solid #4d4d4d;
         	color: #ffffff;
@@ -483,7 +483,7 @@ session_start();
 		text-transform: uppercase;
     	}
 	
-    	.btn:hover{
+    	.btn:hover {
         	background: #cd5c5c;
     	}
 	
@@ -495,7 +495,7 @@ session_start();
         	align-items: center;
     	}
 	
-    	.register-form{
+    	.register-form {
         	width: 350px;
         	margin: 0 auto;
         	border: 5px solid #333;
@@ -503,7 +503,7 @@ session_start();
         	background: #4d4d4d;
     	}
 	
-	.button1{
+	.button1 {
         	background: #69d2e7;
         	border: 1px solid #4d4d4d;
         	color: #ffffff;
@@ -511,7 +511,7 @@ session_start();
         	text-transform: uppercase;
     	}
 	
-    	.button1:hover{
+    	.button1:hover {
         	background: #3ac3df;
     	}
 
