@@ -119,7 +119,7 @@ session_authentication();
 	
 	.form-button:hover {
 		background: #d57676;
-			width: 65%;
+		width: 65%;
 	}
 
 	.form-header {
@@ -189,9 +189,9 @@ session_authentication();
 		<p><?php echo "Hello, ". protect_data($_SESSION['username']) ."!" ?></p>
 		<p>Navigate To Applications:</p>
 	    </div>
-		<input type="button" class="form-button" value="Calculator" onclick="window.location.href='calc.php'"></input>
-		<input type="button" class="form-button" value="BLOG" onclick="window.location.href='https://craypaul.com/blog/'"></input>
-		<input type="button" class="form-button" value="SETTINGS" onclick="window.location.href=''"></input>
+		<input type="button" class="form-button" value="Calculator" onclick="window.location.href='calc.php'">
+		<input type="button" class="form-button" value="BLOG" onclick="window.location.href='https://craypaul.com/blog/'">
+		<input type="button" class="form-button" value="SETTINGS" onclick="window.location.href=''">
 	    <div class="form-footer">
 		Once you are done:<br>
 		<input type="button" class="back-button" value="LOGOUT" onclick="window.location.href='https://craypaul.com/logout.php'">
