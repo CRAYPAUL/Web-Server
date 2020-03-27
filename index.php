@@ -459,7 +459,9 @@
 						<p style = "margin-top:0px">Login to access your dashboard</p>
 					</div>
 					<!--Username Input-->
-					<input type="text" class="form-input" placeholder="USERNAME" name="username">
+					<div>
+						<input type="text" class="form-input" placeholder="USERNAME" name="username">
+					</div>
 					<!--Password Input-->
 					<div class="form-group">
 						<input type="password" class="form-input" placeholder="PASSWORD" name="password">
