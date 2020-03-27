@@ -476,7 +476,6 @@
 				</form>
 			</div>
 		</div>
-
 	</div>
 	<div id="myModal1" class="modal1">
 		<div class="modal-content1">
@@ -507,7 +506,6 @@
 				</form>
 			</div>
 		</div>
-
 	</div>
 	<div class = "row">
 			<div class="f-card"><center>
