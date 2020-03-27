@@ -77,22 +77,22 @@ function user_authentication($db, $username, $password) {
 					return true;
 				}
 				else {
-					echo "<script type='text/javascript'>alert('Error.');</script>";
+					echo "<script type='text/javascript'>alert('Incorrect Username or Password.');</script>";
 					return false;
 				}
 			}
 			else {
-				echo "<script type='text/javascript'>alert('Incorrect Password.');</script>";
+				echo "<script type='text/javascript'>alert('Incorrect Username or Password.');</script>";
 				return false;
 			}
 		}
 		else {
-			echo "<script type='text/javascript'>alert('Username does not exist.');</script>";
+			echo "<script type='text/javascript'>alert('Incorrect Username or Password.');</script>";
 			return false;
 		}
 	}
 	else {
-		echo "<script type='text/javascript'>alert('Cannot authenticate username.');</script>";
+		echo "<script type='text/javascript'>alert('Incorrect Username or Password.');</script>";
 		return false;
 	}
 }
