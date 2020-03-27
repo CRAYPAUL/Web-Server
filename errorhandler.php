@@ -69,7 +69,7 @@ else {
 		font-family: 'Segoe UI', sans-serif;;
 		background: #4d4d4d;
 		font-size: 1rem;
-        line-height: 1.6;
+        	line-height: 1.6;
 		padding: 0;
 		margin: 0;
 		height: 100%;
