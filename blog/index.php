@@ -18,7 +18,7 @@ session_start();
 		font-family: 'Segoe UI', sans-serif;;
 		background: #4d4d4d;
 		font-size: 1rem;
-        line-height: 1.6;
+        	line-height: 1.6;
 		padding: 0;
 		margin: 0;
 		height: 100%;
@@ -345,67 +345,67 @@ session_start();
 	}
 	
 	.wrap1 {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+ 		width: 100%;
+        	height: 100%;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
 	}
 	
-    .login-form{
-        width: 350px;
-        margin: 0 auto;
-        border: 5px solid #333;
-        padding: 2rem;
-        background: #4d4d4d;
-    }
+    	.login-form {
+        	width: 350px;
+ 		margin: 0 auto;
+        	border: 5px solid #333;
+        	padding: 2rem;
+        	background: #4d4d4d;
+    	}
 	
-    .form-input{
-        background: #fafafa;
-        border: 1px solid #eeeeee;
-        padding: 12px;
-        width: 100%;
-    }
+    	.form-input {
+        	background: #fafafa;
+		border: 1px solid #eeeeee;
+		padding: 12px;
+		width: 100%;
+    	}
 	
-    .form-group{
-        margin-bottom: 1rem;
-    }
+    	.form-group {
+		margin-bottom: 1rem;
+    	}
 	
-    .form-button{
-        background: #69d2e7;
-        border: 1px solid #4d4d4d;
-        color: #ffffff;
-        padding: 10px;
-        width: 100%;
-        text-transform: uppercase;
-    }
+	.form-button {
+		background: #69d2e7;
+		border: 1px solid #4d4d4d;
+		color: #ffffff;
+		padding: 10px;
+		width: 100%;
+		text-transform: uppercase;
+    	}
 	
-    .form-button:hover{
-        background: #3ac3df;
-    }
+    	.form-button:hover {
+        	background: #3ac3df;
+    	}
 	
-    .form-header{
-        text-align: center;
-        margin-bottom : 2rem;
+    	.form-header {
+		text-align: center;
+		margin-bottom: 2rem;
 		color: white;
-    }
+    	}
 	
-    .form-footer{
-        text-align: center;
+    	.form-footer {
+        	text-align: center;
 		color: white;
-    }
+    	}
 	
-    .button11{
-        background: #d57676;
-        border: 1px solid #4d4d4d;
-        color: #ffffff;
-        padding: 10px;
-        text-transform: uppercase;
-    }
+    	.button11 {
+		background: #d57676;
+		border: 1px solid #4d4d4d;
+		color: #ffffff;
+		padding: 10px;
+		text-transform: uppercase;
+    	}
 	
-    .button11:hover{
-        background: #cd5c5c;
-    }
+    	.button11:hover {
+        	background: #cd5c5c;
+    	}
 
 	/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 	@media screen and (max-width: 1150px) {
@@ -470,7 +470,7 @@ session_start();
 		<li><a href="#random">Fourm</a></li>
 		<li class="app-dropdown">
 			<a href="javascript:void(0)" class="dropbutton">Apps</a>
-		    <div class="dropdown-content">
+	    		<div class="dropdown-content">
 				<a href="/main/calc.php">Calculator</a>
 				<a href="#">Filler</a>
 			</div>
@@ -479,7 +479,7 @@ session_start();
 			<?php 
 			if (isset($_SESSION["username"])) { ?>
 			<a href="javascript:void(0)" class="dropbutton"><?php echo "". protect_data($_SESSION["username"]) .""; ?></a>
-		    <div class="dropdown-content">
+		    	<div class="dropdown-content">
 				<a href="#">Account</a>
 				<a href="#">Filler</a>
 				<a href="https://craypaul.com/logout.php">Logout</a>
@@ -500,14 +500,16 @@ session_start();
 						<p style = "margin-top:0px">Login to access your dashboard</p>
 					</div>
 					<!--Username Input-->
-					<input type="text" class="form-input" placeholder="USERNAME" name="username">
+					<div>
+						<input type="text" class="form-input" placeholder="USERNAME" name="username"></input>
+					</div>
 					<!--Password Input-->
 					<div class="form-group">
-						<input type="password" class="form-input" placeholder="PASSWORD" name="password">
+						<input type="password" class="form-input" placeholder="PASSWORD" name="password"></input>
 					</div>
 					<!--Login Button-->
 					<div class="form-group">
-						<input type="submit" class="form-button" type="submit" value="Login">
+						<input type="submit" class="form-button" type="submit" value="Login"></input>
 					</div>
 					<div class="form-footer">
 						Don't have an account? <input class="button11" type="button" value="Register" onclick="window.location.href='https://craypaul.com/'">
@@ -532,67 +534,67 @@ session_start();
 			<div class="card">
 				<h2 style = "margin-top:0px; margin-bottom:0px; color:#7bd7ea; animation:h-2 30s infinite">ABOUT THE PROJECT</h2>
 				<p style = "color:white ; margin-top:0px; margin-bottom:10px;"><strong>Welcome to my server! </strong><br>
-				   This is still a work in progress, but I'm having fun along the way.</p>
-					<img src="https://craypaul.com/image/google_logo.png" alt="OSWP: Try Harder" style="width:10%;">
-					<img src="https://craypaul.com/image/twitter_logo.png" alt="OSWP: Try Harder" style="width:10%;">
+			 	This is still a work in progress, but I'm having fun along the way.</p>
+				<img src="https://craypaul.com/image/google_logo.png" alt="OSWP: Try Harder" style="width:10%;">
+				<img src="https://craypaul.com/image/twitter_logo.png" alt="OSWP: Try Harder" style="width:10%;">
 			</div>
 			<div class="links">
-					<img src="https://craypaul.com/image/google_logo.png" alt="OSWP: Try Harder" style="width:75%;">
-					<img src="https://craypaul.com/image/twitter_logo.png" alt="OSWP: Try Harder" style="width:75%;">
-				</div>
+				<img src="https://craypaul.com/image/google_logo.png" alt="OSWP: Try Harder" style="width:75%;">
+				<img src="https://craypaul.com/image/twitter_logo.png" alt="OSWP: Try Harder" style="width:75%;">
+			</div>
 		</div>
 	</div>
 	<div class = "footer">
 		<div class="animated-div">
 			
 		</div>
-			<div class="f-card">
-				<h2 style = "margin-top:10px; margin-bottom:10px; color:#7bd7ea; font-size: 60px;">POPULAR POSTS</h2>
-				<div class="p-card"><a href="#random" style="text-decoration:none;">
-					<h2 style = "color: #d57676; margin-top:0px; margin-bottom:0px">OSWP REVIEW</h2>
-					<h5 style="color: #d9d9d9; margin-top:0px; margin-bottom:10px">My Journey with WiFu</h5>
-					<div>
-						<img src="https://craypaul.com/image/OSWP.png" alt="OSWP: Try Harder" class="responsive">
-					</div>
-					<div class="t-card"><?php
-						include $_SERVER['DOCUMENT_ROOT']."/111.txt";
-					?>
-					</div>
-				</a></div>
-				<div class="p-card"><a href="#random" style="text-decoration:none;">
-					<h2 style = "color: #d57676; margin-top:0px; margin-bottom:0px">OSWP REVIEW</h2>
-					<h5 style="color: #d9d9d9; margin-top:0px; margin-bottom:10px">My Journey with WiFu</h5>
-					<div>
-						<img src="https://craypaul.com/image/OSWP.png" alt="OSWP: Try Harder" class="responsive">
-					</div>
-					<div class="t-card"><?php
-						include $_SERVER['DOCUMENT_ROOT']."/111.txt";
-					?>
-					</div>
-				</a></div>
-				<div class="p-card"><a href="#random" style="text-decoration:none;">
-					<h2 style = "color: #d57676; margin-top:0px; margin-bottom:0px">OSWP REVIEW</h2>
-					<h5 style="color: #d9d9d9; margin-top:0px; margin-bottom:10px">My Journey with WiFu</h5>
-					<div>
-						<img src="https://craypaul.com/image/OSWP.png" alt="OSWP: Try Harder" class="responsive">
-					</div>
-					<div class="t-card"><?php
-						include $_SERVER['DOCUMENT_ROOT']."/111.txt";
-					?>
-					</div>
-				</a></div>
-				<div class="p-card"><a href="#random" style="text-decoration:none;">
-					<h2 style = "color: #d57676; margin-top:0px; margin-bottom:0px">OSWP REVIEW</h2>
-					<h5 style="color: #d9d9d9; margin-top:0px; margin-bottom:10px">My Journey with WiFu</h5>
-					<div>
-						<img src="https://craypaul.com/image/OSWP.png" alt="OSWP: Try Harder" class="responsive">
-					</div>
-					<div class="t-card"><?php
-						include $_SERVER['DOCUMENT_ROOT']."/111.txt";
-					?>
-					</div>
-				</a></div>
-			</div>
+		<div class="f-card">
+			<h2 style = "margin-top:10px; margin-bottom:10px; color:#7bd7ea; font-size: 60px;">POPULAR POSTS</h2>
+			<div class="p-card"><a href="#random" style="text-decoration:none;">
+				<h2 style = "color: #d57676; margin-top:0px; margin-bottom:0px">OSWP REVIEW</h2>
+				<h5 style="color: #d9d9d9; margin-top:0px; margin-bottom:10px">My Journey with WiFu</h5>
+				<div>
+					<img src="https://craypaul.com/image/OSWP.png" alt="OSWP: Try Harder" class="responsive">
+				</div>
+				<div class="t-card"><?php
+					include $_SERVER['DOCUMENT_ROOT']."/111.txt";
+				?>
+				</div>
+			</a></div>
+			<div class="p-card"><a href="#random" style="text-decoration:none;">
+				<h2 style = "color: #d57676; margin-top:0px; margin-bottom:0px">OSWP REVIEW</h2>
+				<h5 style="color: #d9d9d9; margin-top:0px; margin-bottom:10px">My Journey with WiFu</h5>
+				<div>
+					<img src="https://craypaul.com/image/OSWP.png" alt="OSWP: Try Harder" class="responsive">
+				</div>
+				<div class="t-card"><?php
+					include $_SERVER['DOCUMENT_ROOT']."/111.txt";
+				?>
+				</div>
+			</a></div>
+			<div class="p-card"><a href="#random" style="text-decoration:none;">
+				<h2 style = "color: #d57676; margin-top:0px; margin-bottom:0px">OSWP REVIEW</h2>
+				<h5 style="color: #d9d9d9; margin-top:0px; margin-bottom:10px">My Journey with WiFu</h5>
+				<div>
+					<img src="https://craypaul.com/image/OSWP.png" alt="OSWP: Try Harder" class="responsive">
+				</div>
+				<div class="t-card"><?php
+					include $_SERVER['DOCUMENT_ROOT']."/111.txt";
+				?>
+				</div>
+			</a></div>
+			<div class="p-card"><a href="#random" style="text-decoration:none;">
+				<h2 style = "color: #d57676; margin-top:0px; margin-bottom:0px">OSWP REVIEW</h2>
+				<h5 style="color: #d9d9d9; margin-top:0px; margin-bottom:10px">My Journey with WiFu</h5>
+				<div>
+					<img src="https://craypaul.com/image/OSWP.png" alt="OSWP: Try Harder" class="responsive">
+				</div>
+				<div class="t-card"><?php
+					include $_SERVER['DOCUMENT_ROOT']."/111.txt";
+				?>
+				</div>
+			</a></div>
+		</div>
 	</div>
 </div>
 <script>
