@@ -20,7 +20,7 @@ session_start();
 		font-family: 'Segoe UI', sans-serif;;
 		background: #4d4d4d;
 		font-size: 1rem;
-        line-height: 1.6;
+        	line-height: 1.6;
 		padding: 0;
 		margin: 0;
 		height: 100%;
@@ -405,114 +405,115 @@ session_start();
 	}
 	
 	.wrap1 {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        	width: 100%;
+        	height: 100%;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
 	}
 	
-    .login-form{
-        width: 350px;
-        margin: 0 auto;
-        border: 5px solid #333;
-        padding: 2rem;
-        background: #4d4d4d;
-    }
+	.login-form{
+        	width: 350px;
+        	margin: 0 auto;
+        	border: 5px solid #333;
+        	padding: 2rem;
+        	background: #4d4d4d;
+    	}
 	
-    .form-input{
-        background: #fafafa;
-        border: 1px solid #eeeeee;
-        padding: 12px;
-        width: 100%;
-    }
+    	.form-input{
+        	background: #fafafa;
+        	border: 1px solid #eeeeee;
+        	padding: 12px;
+        	width: 100%;
+    	}
 	
-    .form-group{
-        margin-bottom: 1rem;
-    }
+    	.form-group{
+        	margin-bottom: 1rem;
+    	}
 	
-    .form-button{
-        background: #69d2e7;
-        border: 1px solid #4d4d4d;
-        color: #ffffff;
-        padding: 10px;
-        width: 100%;
-        text-transform: uppercase;
-    }
+    	.form-button{
+        	background: #69d2e7;
+        	border: 1px solid #4d4d4d;
+        	color: #ffffff;
+        	padding: 10px;
+        	width: 100%;
+        	text-transform: uppercase;
+    	}
 	
-    .form-button:hover{
-        background: #3ac3df;
-    }
+    	.form-button:hover{
+        	background: #3ac3df;
+    	}
 	
-    .form-header{
-        text-align: center;
-        margin-bottom : 2rem;
+    	.form-header{
+        	text-align: center;
+        	margin-bottom: 2rem;
 		color: white;
-    }
+	}
 	
-    .form-footer{
-        text-align: center;
+    	.form-footer{
+       		text-align: center;
 		color: white;
-    }
+    	}
 	
-    .button11{
-        background: #d57676;
-        border: 1px solid #4d4d4d;
-        color: #ffffff;
-        padding: 10px;
-        text-transform: uppercase;
-    }
+    	.button11{
+        	background: #d57676;
+        	border: 1px solid #4d4d4d;
+        	color: #ffffff;
+        	padding: 10px;
+        	text-transform: uppercase;
+    	}
 	
-    .button11:hover{
-        background: #cd5c5c;
-    }
+    	.button11:hover{
+        	background: #cd5c5c;
+    	}
 	
-	.textInput{
-        background: #fafafa;
-        border: 1px solid #eeeeee;
-        padding: 12px;
-        width: 100%;
-    }
+    	.textInput{
+        	background: #fafafa;
+        	border: 1px solid #eeeeee;
+        	padding: 12px;
+        	width: 100%;
+    	}
 	
-    .btn{
-        background: #d57676;
-        border: 1px solid #4d4d4d;
-        color: #ffffff;
-        padding: 10px;
+    	.btn{
+       		background: #d57676;
+        	border: 1px solid #4d4d4d;
+        	color: #ffffff;
+        	padding: 10px;
 		width: 100%;
 		text-transform: uppercase;
-    }
+    	}
 	
-    .btn:hover{
-        background: #cd5c5c;
-    }
+    	.btn:hover{
+        	background: #cd5c5c;
+    	}
 	
 	.wrapper {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .register-form{
-        width: 350px;
-        margin: 0 auto;
-        border: 5px solid #333;
-        padding: 2rem;
-        background: #4d4d4d;
-    }
+        	width: 100%;
+        	height: 100%;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+    	}
+	
+    	.register-form{
+        	width: 350px;
+        	margin: 0 auto;
+        	border: 5px solid #333;
+        	padding: 2rem;
+        	background: #4d4d4d;
+    	}
 	
 	.button1{
-        background: #69d2e7;
-        border: 1px solid #4d4d4d;
-        color: #ffffff;
-        padding: 10px;
-        text-transform: uppercase;
-    }
+        	background: #69d2e7;
+        	border: 1px solid #4d4d4d;
+        	color: #ffffff;
+        	padding: 10px;
+        	text-transform: uppercase;
+    	}
 	
-    .button1:hover{
-        background: #3ac3df;
-    }
+    	.button1:hover{
+        	background: #3ac3df;
+    	}
 
 	/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 	@media screen and (max-width: 1150px) {
