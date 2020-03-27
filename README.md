@@ -58,7 +58,6 @@ redirect issue, securing cookies, and running SSL not only over HTTPS, but also 
 - Create PMA password not covered by security 
 - Remove default user/passwords included with XAMPP for FTP server, WebDAV server, and web accessible folders 
 - Using wireshark to further look at HTTP headers and transfer of data
-- Potential bot usage??
 
 
 ## Recently Added: 
