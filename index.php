@@ -517,7 +517,7 @@
 				</a></div>
 			</center></div>
 	</div>
-	<br>
+	<br></br>
 	<div class="animated-div">
 		
 	</div>
