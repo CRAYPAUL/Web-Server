@@ -160,7 +160,7 @@ require $_SERVER['DOCUMENT_ROOT']."/authentication.php";
     	}
 
     	.form-header {
-		margin-bottom : 0.5rem;
+		margin-bottom: 0.5rem;
 		font-size: 30px;
 		text-align: center;
 		color: #fafafa;
@@ -180,7 +180,7 @@ require $_SERVER['DOCUMENT_ROOT']."/authentication.php";
 		width: 29%;
 		display: block;
 		float: right;
-		font size: large;
+		font-size: large;
 		text-transform: uppercase;
 	}
 	
