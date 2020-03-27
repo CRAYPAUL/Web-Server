@@ -66,7 +66,7 @@ else {
 <title>Error page</title>
 <style>
 	body {
-		font-family: 'Segoe UI', sans-serif;;
+		font-family: 'Segoe UI', sans-serif;
 		background: #4d4d4d;
 		font-size: 1rem;
         	line-height: 1.6;
