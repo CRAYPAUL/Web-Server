@@ -124,7 +124,7 @@ session_authentication();
 
 	.form-header {
 		text-align: center;
-		margin-bottom : 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 
 	.form-footer {
@@ -172,7 +172,7 @@ session_authentication();
 			<?php 
 			if (isset($_SESSION["username"])) { ?>
 			<a href="javascript:void(0)" class="dropbutton"><?php echo "". protect_data($_SESSION["username"]) .""; ?></a>
-		    <div class="dropdown-content">
+		    	<div class="dropdown-content">
 				<a href="#">Account</a>
 				<a href="#">Filler</a>
 				<a href="https://craypaul.com/logout.php">Logout</a>
@@ -182,21 +182,21 @@ session_authentication();
 			<a href="#login" class="dropbutton" id ="myBtn"><?php echo "	Login	"; }?></a>
 		</li>
 	</ul>
-    <div class="wrap">
-	<form method="get" class="main-form">
-	    <div class="form-header">
-		<h3 style="font-size:40px">WELCOME BACK</h3>
-		<p><?php echo "Hello, ". protect_data($_SESSION['username']) ."!" ?></p>
-		<p>Navigate To Applications:</p>
-	    </div>
-		<input type="button" class="form-button" value="Calculator" onclick="window.location.href='calc.php'">
-		<input type="button" class="form-button" value="BLOG" onclick="window.location.href='https://craypaul.com/blog/'">
-		<input type="button" class="form-button" value="SETTINGS" onclick="window.location.href=''">
-	    <div class="form-footer">
-		Once you are done:<br>
-		<input type="button" class="back-button" value="LOGOUT" onclick="window.location.href='https://craypaul.com/logout.php'">
-	    </div>
-	</form>
-    </div> <!--/.wrap-->
+	<div class="wrap">
+		<form method="get" class="main-form">
+			<div class="form-header">
+				<h3 style="font-size:40px">WELCOME BACK</h3>
+				<p><?php echo "Hello, ". protect_data($_SESSION['username']) ."!" ?></p>
+				<p>Navigate To Applications:</p>
+	    		</div>
+			<input type="button" class="form-button" value="Calculator" onclick="window.location.href='calc.php'">
+			<input type="button" class="form-button" value="BLOG" onclick="window.location.href='https://craypaul.com/blog/'">
+			<input type="button" class="form-button" value="SETTINGS" onclick="window.location.href=''">
+	    		<div class="form-footer">
+				Once you are done:<br>
+				<input type="button" class="back-button" value="LOGOUT" onclick="window.location.href='https://craypaul.com/logout.php'">
+	   		 </div>
+		</form>
+   	 </div> <!--/.wrap-->
 </body>
 </html>
