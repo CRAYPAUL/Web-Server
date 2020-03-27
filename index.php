@@ -460,18 +460,18 @@
 					</div>
 					<!--Username Input-->
 					<div>
-						<input type="text" class="form-input" placeholder="USERNAME" name="username">
+						<input type="text" class="form-input" placeholder="USERNAME" name="username"></input>
 					</div>
 					<!--Password Input-->
 					<div class="form-group">
-						<input type="password" class="form-input" placeholder="PASSWORD" name="password">
+						<input type="password" class="form-input" placeholder="PASSWORD" name="password"></input>
 					</div>
 					<!--Login Button-->
 					<div class="form-group">
-						<input type="submit" class="form-button" type="submit" value="Login">
+						<input type="submit" class="form-button" type="submit" value="Login"></input>
 					</div>
 					<div class="form-footer">
-						Don't have an account? <input class="button11" type="button" value="Register" onclick="href='#register'">
+						Don't have an account? <input class="button11" type="button" value="Register" onclick="href='#register'"></input>
 					</div>
 				</form>
 			</div>
@@ -487,21 +487,21 @@
 						<p style = "margin-top:0px">Register an account to the server</p>
 					</div>
 					<div id="username_div">
-						<input type="text" placeholder="USERNAME" class="textInput" name="username">
+						<input type="text" placeholder="USERNAME" class="textInput" name="username"></input>
 						<div id="name_error"></div>
 					</div>
 					<div id="password_div">
-						<input type="password" placeholder="PASSWORD" class="textInput" name="password">
+						<input type="password" placeholder="PASSWORD" class="textInput" name="password"></input>
 					</div>
 					<div id="pass_confirm_div" class="form-group">
-						<input type="password" placeholder="CONFIRM PASSWORD" class="textInput" name="password_confirm">
+						<input type="password" placeholder="CONFIRM PASSWORD" class="textInput" name="password_confirm"></input>
 						<div id="password_error"></div>
 					</div>
 					<div class="form-group">
-						<input type="submit" name="register" value="Register" class="btn">
+						<input type="submit" name="register" value="Register" class="btn"></input>
 					</div>
 					<div class="form-footer">
-						Already have an account? <input class="button1" type="button" value="Login" onclick="href='#login'">
+						Already have an account? <input class="button1" type="button" value="Login" onclick="href='#login'"></input>
 					</div>
 				</form>
 			</div>
