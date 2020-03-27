@@ -11,7 +11,7 @@ session_start();
 <link rel="shortcut icon" type="image/x-icon" href="https://craypaul.com/myicon.ico"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-	* {
+	*{
 		box-sizing: border-box;
 	}
 
